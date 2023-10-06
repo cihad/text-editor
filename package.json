@@ -1,0 +1,30 @@
+{
+  "name": "@deneme/text-editor",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "@blueprintjs/core": "^5.1.5",
+    "@lexical/code": "^0.9.0",
+    "@lexical/link": "^0.9.0",
+    "@lexical/list": "^0.9.0",
+    "@lexical/markdown": "^0.9.0",
+    "@lexical/react": "^0.9.0",
+    "@lexical/rich-text": "^0.9.0",
+    "@lexical/selection": "^0.11.3",
+    "@lexical/table": "^0.9.0",
+    "@lexical/utils": "^0.11.3",
+    "lexical": "^0.9.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-custom": "workspace:*"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "custom"
+    ]
+  }
+}
